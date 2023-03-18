@@ -1,4 +1,4 @@
-import { Grid, Box, Typography, Card, CardContent } from "@mui/material";
+import { Grid, Box, Typography } from "@mui/material";
 import React, { useState } from "react";
 import MenuCard from "./MenuCard";
 import { items, listItems } from "./menuData";
