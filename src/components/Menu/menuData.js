@@ -35,6 +35,18 @@ export const listItems = [
     descriptions: "Lorem, deren, trataro, filede, nerada",
     price: "$8.95",
   },
+  {
+    img: "https://bootstrapmade.com/demo/templates/Yummy/assets/img/menu/menu-item-3.png",
+    title: "Magnam Tiste",
+    descriptions: "Lorem, deren, trataro, filede, nerada",
+    price: "$12.95",
+  },
+  {
+    img: "https://bootstrapmade.com/demo/templates/Yummy/assets/img/menu/menu-item-3.png",
+    title: "Magnam Tiste",
+    descriptions: "Lorem, deren, trataro, filede, nerada",
+    price: "$12.95",
+  },
 ];
 
 export const items = [
