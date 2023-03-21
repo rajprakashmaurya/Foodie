@@ -1,0 +1,9 @@
+.booking {
+  max-height: 600px;
+  background-color: black;
+  overflow: hidden;
+  max-width: 500px;
+}
+.booking2 {
+  max-width: 500px;
+}

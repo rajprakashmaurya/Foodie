@@ -1,0 +1,8 @@
+.event {
+  height: 80vh;
+  width: 60vh;
+
+  background-repeat: no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("https://bootstrapmade.com/demo/templates/Yummy/assets/img/events-1.jpg");
+}

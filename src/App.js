@@ -6,6 +6,10 @@ import About from "./components/About";
 import Menu from "./components/Menu";
 import Poster from "./components/Poster";
 import Card from "./components/Card";
+import Testimonial from "./components/Testimonial";
+import Events from "./components/Events";
+import Chefs from "./components/Chef";
+import Booking from "./components/Booking";
 
 function App() {
   return (
@@ -16,6 +20,10 @@ function App() {
       <Card />
       <Poster />
       <Menu />
+      <Testimonial />
+      <Events />
+      <Chefs />
+      <Booking />
     </div>
   );
 }
