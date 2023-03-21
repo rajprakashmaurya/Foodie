@@ -25,7 +25,12 @@ function Gallery({ item }) {
         gap={4}
       >
         {items.map((item) => (
-          <img height={300} src={item.img} alt="image" />
+          <img
+            style={{ border: "4px solid #fff" }}
+            height={280}
+            src={item.img}
+            alt="image"
+          />
         ))}
       </Box>
     </Box>

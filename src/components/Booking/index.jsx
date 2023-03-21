@@ -51,7 +51,7 @@ function Booking() {
           <TextareaAutosize
             placeholder=" Message"
             style={{ width: "450px", fontSize: 18, height: "150px" }}
-          />{" "}
+          />
           <br />
           <Fab color="secondary" variant="extended">
             {" "}

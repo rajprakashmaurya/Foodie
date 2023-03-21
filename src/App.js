@@ -1,5 +1,9 @@
-import React from "react";
+import React, { useEffect } from "react";
+import "aos/dist/aos.css";
 import "./App.css";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import * as Aos from "aos";
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
@@ -11,8 +15,15 @@ import Events from "./components/Events";
 import Chefs from "./components/Chef";
 import Booking from "./components/Booking";
 import Gallery from "./components/Gallery";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
+  useEffect(() => {
+    Aos.init();
+    Aos.refresh();
+  }, []);
+
   return (
     <div className="App">
       <Navbar />
@@ -26,6 +37,8 @@ function App() {
       <Chefs />
       <Booking />
       <Gallery />
+      <Contact />
+      <Footer />
     </div>
   );
 }

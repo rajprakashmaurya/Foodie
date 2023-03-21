@@ -8,7 +8,7 @@ import AssignmentTurnedInRoundedIcon from "@mui/icons-material/AssignmentTurnedI
 function Cards() {
   return (
     <Grid container bgcolor="#eee" py={10} px={7}>
-      <Grid item sm={3} xl={3}>
+      <Grid item sm={3} xl={3} data-aos="fade-right">
         <Card
           elevation={5}
           sx={{
@@ -41,6 +41,7 @@ function Cards() {
         </Card>
       </Grid>
       <Grid
+        data-aos="fade-left"
         item
         sm={9}
         xl={9}

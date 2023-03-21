@@ -13,7 +13,7 @@ import DoneAllIcon from "@mui/icons-material/DoneAll";
 const About = () => {
   return (
     <Box minHeight="100vh" my={8} mx={8} bgcolor="#ffffff">
-      <Box textAlign="center">
+      <Box textAlign="center" data-aos="fade-up">
         <Typography variant="p" color="gray" fontSize={15}>
           ABOUT US
         </Typography>
@@ -21,7 +21,7 @@ const About = () => {
           LEARN MORE ABOUT US
         </Typography>
       </Box>
-      <Grid container display="flex" mt={4} spacing={3}>
+      <Grid data-aos="fade-up" container display="flex" mt={4} spacing={3}>
         <Grid item sm={12} md={7} xl={7} overflow="hidden">
           <img
             src="https://bootstrapmade.com/demo/templates/Yummy/assets/img/about.jpg"

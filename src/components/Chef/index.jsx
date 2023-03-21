@@ -19,6 +19,7 @@ function Chefs() {
       py={10}
       px={5}
       bgcolor="#f2f2f2"
+      data-aos="fade-up"
     >
       <Typography variant="p">CHEFS</Typography>
       <Typography variant="h3" mt={3}>
