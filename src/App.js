@@ -10,6 +10,7 @@ import Testimonial from "./components/Testimonial";
 import Events from "./components/Events";
 import Chefs from "./components/Chef";
 import Booking from "./components/Booking";
+import Gallery from "./components/Gallery";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <Events />
       <Chefs />
       <Booking />
+      <Gallery />
     </div>
   );
 }
