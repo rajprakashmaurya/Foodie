@@ -26,7 +26,7 @@ function Booking() {
       <Typography variant="h3" my={4}>
         Book Your Stay With Us
       </Typography>
-      <Box display="flex" gap={5} py={2} flexWrap="wrap">
+      <Box display="flex" py={2} flexWrap="wrap">
         <Box className="booking">
           <img
             style={{ height: "100%", width: "100%", overflow: "hidden" }}
