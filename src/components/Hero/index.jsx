@@ -1,10 +1,15 @@
 import { Box, Fab, Grid, Typography } from "@mui/material";
-
 import PlayCircleIcon from "@mui/icons-material/PlayCircle";
 
 function Hero() {
   return (
-    <Box bgcolor="#eeeeee" minHeight="100vh" display="flex" alignItems="center">
+    <Box
+      bgcolor="#eeeeee"
+      minHeight="100vh"
+      display="flex"
+      alignItems="center"
+      id="Home"
+    >
       <Grid container>
         <Grid
           item

@@ -10,7 +10,7 @@ import "./booking.css";
 
 function Booking() {
   return (
-    <Box px={10} py={10} sx={{ textAlign: "center" }}>
+    <Box id="booking" px={10} py={10} sx={{ textAlign: "center" }}>
       <Typography variant="p">BOOK A TABLE</Typography>
       <Typography variant="h3" my={3}>
         Book Your Stay With Us

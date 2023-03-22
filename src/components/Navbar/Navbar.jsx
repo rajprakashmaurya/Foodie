@@ -6,6 +6,7 @@ import {
   Container,
   Fab,
   IconButton,
+  Link,
   Menu,
   MenuItem,
   Toolbar,
@@ -48,7 +49,6 @@ function Navbar() {
     >
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          {/* <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} /> */}
           <Typography
             variant="h5"
             noWrap
@@ -109,7 +109,7 @@ function Navbar() {
               ))}
             </Menu>
           </Box>
-          {/* <AdbIcon sx={{ display: { xs: "flex", md: "none" }, mr: 1 }} /> */}
+
           <Typography
             variant="h5"
             noWrap
@@ -133,21 +133,23 @@ function Navbar() {
               <Button
                 key={page}
                 onClick={handleCloseNavMenu}
-                sx={{ my: 2, mx: 1, color: "gray", display: "block" }}
+                sx={{ my: 2, mx: 3, color: "gray", display: "block" }}
               >
                 {page}
               </Button>
             ))}
           </Box>
 
-          <Box sx={{ flexGrow: 0 }}>
-            <Fab
-              size="medium"
-              variant="extended"
-              sx={{ bgcolor: "#e31f1f", color: "#120101" }}
-            >
-              Book A Table
-            </Fab>
+          <Box Link="#booking" sx={{ flexGrow: 0 }}>
+            <a href="#booking" textDecoration="none">
+              <Fab
+                color="secondary"
+                variant="extended"
+                // sx={{ bgcolor: "#e31f1f", color: "#120101" }}
+              >
+                Book A Table
+              </Fab>
+            </a>
           </Box>
         </Toolbar>
       </Container>
