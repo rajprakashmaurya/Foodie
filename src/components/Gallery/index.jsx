@@ -2,28 +2,14 @@ import { Box, Typography } from "@mui/material";
 import React from "react";
 import { items } from "./GalleryData";
 
-function Gallery({ item }) {
+function Gallery() {
   return (
-    <Box
-      display="flex"
-      alignItems="center"
-      justifyContent="center"
-      flexDirection="column"
-      py={10}
-      bgcolor="#fad3d3"
-    >
+    <Box textAlign="center" py={10} bgcolor="#fad3d3">
       <Typography variant="p"> GALLERY</Typography>
-      <Typography variant="h3" py={5}>
-        {" "}
+      <Typography variant="h3" py={3}>
         Check Our Gallery
       </Typography>
-      <Box
-        display="flex"
-        flexWrap="wrap"
-        alignItems="center"
-        justifyContent="center"
-        gap={4}
-      >
+      <Box display="flex" justifyContent="center" flexWrap="wrap" gap={4}>
         {items.map((item) => (
           <img
             style={{ border: "4px solid #fff" }}

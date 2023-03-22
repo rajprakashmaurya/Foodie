@@ -5,27 +5,18 @@ import {
   CardActionArea,
   CardContent,
 } from "@mui/material";
-import { Box, textAlign } from "@mui/system";
+import { Box } from "@mui/system";
 import React from "react";
 
 function Chefs() {
   return (
-    <Box
-      display="flex"
-      alignItems="center"
-      justifyContent="center"
-      flexDirection="column"
-      flexWrap="wrap"
-      py={10}
-      px={5}
-      bgcolor="#f2f2f2"
-      data-aos="fade-up"
-    >
+    <Box textAlign="center" py={10} px={5} bgcolor="#f2f2f2" data-aos="fade-up">
       <Typography variant="p">CHEFS</Typography>
-      <Typography variant="h3" mt={3}>
+      <Typography variant="h3" my={3}>
+        {" "}
         Our Proffesional Chefs
       </Typography>
-      <Box my={10} display="flex" flexWrap="wrap" gap={4}>
+      <Box display="flex" flexWrap="wrap" justifyContent="center" gap={4}>
         <Card
           sx={{
             maxWidth: 400,

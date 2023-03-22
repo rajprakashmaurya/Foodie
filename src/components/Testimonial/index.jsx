@@ -4,7 +4,6 @@ import React from "react";
 import AlignHorizontalLeftIcon from "@mui/icons-material/AlignHorizontalLeft";
 import AlignHorizontalRightIcon from "@mui/icons-material/AlignHorizontalRight";
 import Slider from "react-slick";
-import { items } from "./TestimonialData";
 
 var settings = {
   dots: true,
@@ -23,40 +22,6 @@ function Testimonial() {
       </Box>
 
       <Slider autoplay="true" infinite="true" {...settings}>
-        {/* <div>
-          {items.map((item) => (
-            <Grid
-              container
-              spacing={2}
-              py={5}
-              px={15}
-              display="flex !important"
-            >
-              <Grid item md={8}>
-                <Box borderLeft={5} borderColor="red">
-                  <Typography ml={3} fontSize="20px" fontStyle="italic">
-                    <AlignHorizontalLeftIcon color="error" />
-                    {item.description}
-                    <AlignHorizontalRightIcon color="error" />
-                  </Typography>
-                  <Typography ml={3} mt={2} variant="h5" fontWeight="600">
-                    {item.title}
-                  </Typography>
-                  <Typography ml={3}>{item.role}</Typography>
-                  <Typography ml={3}>{item.ratting}</Typography>
-                </Box>
-              </Grid>
-              <Grid item md={4}>
-                <img
-                  style={{ borderRadius: "50%" }}
-                  src="https://bootstrapmade.com/demo/templates/Yummy/assets/img/testimonials/testimonials-2.jpg"
-                  alt="avator"
-                  height={200}
-                />
-              </Grid>
-            </Grid>
-          ))}
-        </div> */}
         <div>
           <Grid container spacing={2} py={5} px={15} display="flex !important">
             <Grid item md={8}>
