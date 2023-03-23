@@ -38,14 +38,23 @@ function Contact() {
           <AnyReactComponent lat={59.955413} lng={30.337844} text="My Marker" />
         </GoogleMapReact>
       </Box> */}
-        {/* <Box>
+        <Box
+          display="flex"
+          flexWrap="wrap"
+          justifyContent="space-evenly"
+          my={4}
+          gap={5}
+        >
           <Box
             display="flex"
-            alignItems="center"
-            justifyContent="center"
-            gap={2}
             bgcolor="#f4f4f4"
-            p={8}
+            p={4}
+            sx={{
+              minWidth: "500px",
+              height: "80px",
+              justifyContent: "space-between",
+              alignItems: "center",
+            }}
           >
             <Fab size="medium">
               <ImportContactsIcon fontSize="large" rounded />
@@ -60,11 +69,14 @@ function Contact() {
           </Box>
           <Box
             display="flex"
-            alignItems="center"
-            justifyContent="center"
-            gap={2}
             bgcolor="#f4f4f4"
-            p={8}
+            p={4}
+            sx={{
+              minWidth: "500px",
+              height: "80px",
+              justifyContent: "space-between",
+              alignItems: "center",
+            }}
           >
             <Fab size="medium">
               <EmailRoundedIcon fontSize="large" rounded />
@@ -75,13 +87,24 @@ function Contact() {
               <Typography variant="p">contact@example.com</Typography>
             </Box>
           </Box>
+        </Box>
+        <Box
+          display="flex"
+          flexWrap="wrap"
+          justifyContent="space-evenly"
+          my={4}
+          gap={5}
+        >
           <Box
             display="flex"
-            alignItems="center"
-            justifyContent="center"
-            gap={2}
             bgcolor="#f4f4f4"
-            p={8}
+            p={4}
+            sx={{
+              minWidth: "500px",
+              height: "80px",
+              justifyContent: "space-between",
+              alignItems: "center",
+            }}
           >
             <Fab size="medium">
               <CallRoundedIcon fontSize="large" rounded />
@@ -94,11 +117,14 @@ function Contact() {
           </Box>
           <Box
             display="flex"
-            alignItems="center"
-            justifyContent="center"
             bgcolor="#f4f4f4"
-            p={8}
-            gap={5}
+            p={4}
+            sx={{
+              minWidth: "500px",
+              height: "80px",
+              justifyContent: "space-between",
+              alignItems: "center",
+            }}
           >
             <Fab size="medium">
               <ShareRoundedIcon fontSize="large" rounded />
@@ -112,12 +138,21 @@ function Contact() {
               </Typography>
             </Box>
           </Box>
-        </Box> */}
-        {/* <Card>
-          <TextField placeholder="Your Name" style={{ width: "900px" }} />
+        </Box>
+
+        <Box py={8}>
+          <TextField
+            type="text"
+            placeholder="Your Name"
+            style={{ width: "900px" }}
+          />
           <br />
           <br />
-          <TextField placeholder="Your Email" style={{ width: "900px" }} />
+          <TextField
+            type="email"
+            placeholder="Your Email"
+            style={{ width: "900px" }}
+          />
           <br />
           <br />
           <TextareaAutosize
@@ -125,8 +160,10 @@ function Contact() {
             style={{ width: "900px", fontSize: 18, height: "150px" }}
           />{" "}
           <br />
-          <Fab variant="extended">Send Message</Fab>
-        </Card> */}
+          <Box py={3}>
+            <Fab variant="extended">Send Message</Fab>
+          </Box>
+        </Box>
       </Box>
     </div>
   );
