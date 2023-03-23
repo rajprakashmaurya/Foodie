@@ -102,9 +102,11 @@ function Navbar() {
                   sx={{ color: "gray" }}
                   onClick={handleCloseNavMenu}
                 >
-                  <Typography textAlign="center" px={5} color="gray">
-                    {page}
-                  </Typography>
+                  <Link underline="none" href={`#${page}`}>
+                    <Typography textAlign="center" px={5} color="gray">
+                      {page}
+                    </Typography>
+                  </Link>
                 </MenuItem>
               ))}
             </Menu>
@@ -135,7 +137,9 @@ function Navbar() {
                 onClick={handleCloseNavMenu}
                 sx={{ my: 2, mx: 3, color: "gray", display: "block" }}
               >
-                {page}
+                <Link underline="none" href={`#${page}`}>
+                  {page}
+                </Link>
               </Button>
             ))}
           </Box>
