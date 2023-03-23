@@ -54,6 +54,7 @@ function Hero() {
         >
           <img
             data-aos="zoom-out"
+            data-aos-duration="9000"
             src="https://bootstrapmade.com/demo/templates/Yummy/assets/img/hero-img.png"
             loading="lazy"
             height="450"
