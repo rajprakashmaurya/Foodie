@@ -140,29 +140,31 @@ function Contact() {
           </Box>
         </Box>
 
-        <Box py={8}>
-          <TextField
-            type="text"
-            placeholder="Your Name"
-            style={{ width: "900px" }}
-          />
-          <br />
-          <br />
-          <TextField
-            type="email"
-            placeholder="Your Email"
-            style={{ width: "900px" }}
-          />
-          <br />
-          <br />
-          <TextareaAutosize
-            placeholder=" Message"
-            style={{ width: "900px", fontSize: 18, height: "150px" }}
-          />{" "}
-          <br />
-          <Box py={3}>
-            <Fab variant="extended">Send Message</Fab>
-          </Box>
+        <Box px={20}>
+          <Card elevation="1">
+            <TextField
+              type="text"
+              placeholder="Your Name"
+              style={{ width: "900px" }}
+            />
+            <br />
+            <br />
+            <TextField
+              type="email"
+              placeholder="Your Email"
+              style={{ width: "900px" }}
+            />
+            <br />
+            <br />
+            <TextareaAutosize
+              placeholder=" Message"
+              style={{ width: "900px", fontSize: 18, height: "150px" }}
+            />{" "}
+            <br />
+            <Box py={3}>
+              <Fab variant="extended">Send Message</Fab>
+            </Box>
+          </Card>
         </Box>
       </Box>
     </div>
