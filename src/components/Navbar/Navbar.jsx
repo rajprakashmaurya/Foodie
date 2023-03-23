@@ -144,16 +144,12 @@ function Navbar() {
             ))}
           </Box>
 
-          <Box Link="#booking" sx={{ flexGrow: 0 }}>
-            <a href="#booking" textDecoration="none">
-              <Fab
-                color="secondary"
-                variant="extended"
-                // sx={{ bgcolor: "#e31f1f", color: "#120101" }}
-              >
+          <Box sx={{ flexGrow: 0 }}>
+            <Link href="#booking" underline="none">
+              <Fab color="secondary" variant="extended">
                 Book A Table
               </Fab>
-            </a>
+            </Link>
           </Box>
         </Toolbar>
       </Container>

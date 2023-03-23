@@ -1,4 +1,4 @@
-import { Box, Fab, Grid, Typography } from "@mui/material";
+import { Box, Fab, Grid, Typography, Link } from "@mui/material";
 import PlayCircleIcon from "@mui/icons-material/PlayCircle";
 
 function Hero() {
@@ -20,21 +20,24 @@ function Hero() {
           display="flex"
           flexDirection="column"
           justifyContent="center"
+          data-aos="zoom-out"
         >
           <Typography variant="h2" fontFamily="Amatic SC" fontWeight={600}>
             Enjoy Your Healthy <br />
             Delicious Food
           </Typography>
-          <Typography variant="body2" py={3}>
+          <Typography variant="p" py={3}>
             Sed autem laudantium dolores. Voluptatem itaque ea consequatur
             eveniet. Eum quas beatae cumque eum quaerat.
           </Typography>
           <Box display="flex" gap={5}>
-            <Fab variant="extended" sx={{ bgcolor: "#ce1212" }}>
-              Book A Table
+            <Fab variant="extended" sx={{ bgcolor: "#d2d4df" }}>
+              <Link underline="none" href="#Booking">
+                Book A Table
+              </Link>
             </Fab>
             <Fab variant="extended" sx={{ bgcolor: "#ffffff7" }}>
-              <PlayCircleIcon color="success" />
+              <PlayCircleIcon color="info" />
               Watch video
             </Fab>
           </Box>

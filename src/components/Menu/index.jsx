@@ -7,7 +7,7 @@ function Menu() {
   const [activeMenu, setActiveMenu] = useState("Staters");
   return (
     <div id="Menu">
-      <Box my={10}>
+      <Box my={10} data-aos="fade-up">
         <Grid>
           <Box
             display="flex"

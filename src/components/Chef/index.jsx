@@ -19,8 +19,7 @@ function Chefs() {
         data-aos="fade-up"
       >
         <Typography variant="p">CHEFS</Typography>
-        <Typography variant="h3" my={3}>
-          {" "}
+        <Typography variant="h3" my={3} fontFamily="Amatic SC, cursive">
           Our Proffesional Chefs
         </Typography>
         <Box display="flex" flexWrap="wrap" justifyContent="center" gap={4}>

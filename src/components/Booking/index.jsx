@@ -12,12 +12,13 @@ function Booking() {
   return (
     <Box id="booking" px={10} py={10} sx={{ textAlign: "center" }}>
       <Typography variant="p">BOOK A TABLE</Typography>
-      <Typography variant="h3" my={3}>
+      <Typography variant="h3" my={3} fontFamily="Amatic SC, cursive">
         Book Your Stay With Us
       </Typography>
       <Box display="flex" py={2} flexWrap="wrap">
         <Box className="booking">
           <img
+            data-aos="zoom-in"
             style={{ height: "100%", width: "100%", overflow: "hidden" }}
             src="https://bootstrapmade.com/demo/templates/Yummy/assets/img/reservation.jpg"
           />
@@ -30,6 +31,7 @@ function Booking() {
           sx={{
             "& > :not(style)": { m: 1, width: "25ch" },
           }}
+          data-aos="fade-up"
         >
           <TextField placeholder="Your Name" type="text" required />
           <TextField placeholder="Your Email" type="email" required />

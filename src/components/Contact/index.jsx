@@ -24,16 +24,9 @@ function Contact() {
 
   return (
     <div id="Contact">
-      <Box
-        display="flex"
-        alignItems="center"
-        justifyContent="center"
-        flexDirection="column"
-        py={10}
-      >
+      <Box textAlign="center" py={10} data-aos="fade-up">
         <Typography variant="p"> CONTACT</Typography>
-        <Typography variant="h3" py={3}>
-          {" "}
+        <Typography variant="h3" py={3} fontFamily="Amatic SC, cursive">
           Need Help? Contact Us
         </Typography>
         {/* <Box style={{ height: "100vh", width: "100%" }}>
@@ -45,13 +38,7 @@ function Contact() {
           <AnyReactComponent lat={59.955413} lng={30.337844} text="My Marker" />
         </GoogleMapReact>
       </Box> */}
-        <Box
-          display="flex"
-          flexWrap="wrap"
-          alignItems="center"
-          justifyContent="center"
-          gap={5}
-        >
+        {/* <Box>
           <Box
             display="flex"
             alignItems="center"
@@ -125,8 +112,8 @@ function Contact() {
               </Typography>
             </Box>
           </Box>
-        </Box>
-        <Card>
+        </Box> */}
+        {/* <Card>
           <TextField placeholder="Your Name" style={{ width: "900px" }} />
           <br />
           <br />
@@ -139,7 +126,7 @@ function Contact() {
           />{" "}
           <br />
           <Fab variant="extended">Send Message</Fab>
-        </Card>
+        </Card> */}
       </Box>
     </div>
   );
